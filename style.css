@@ -7,14 +7,11 @@
   box-sizing: border-box;
   font-family: "Cabin", sans-serif;
 }
-.header {
+header {
   background: #b80d1d;
+  height: 100px;
 }
 
-.container {
-  position: relative;
-  display: table;
-}
 a {
   color: white;
   text-decoration: none;
@@ -26,16 +23,24 @@ h2 {
   color: white;
 }
 
+.produtos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: green;
+}
+
+.capa {
+  background: purple;
+  height: 100px;
+}
 .historia {
   background: #b80d1d;
 }
 
 .bolos {
-  float: left;
-  width: 30%;
   background: #b80d1d;
 }
 
-.capa {
-  width: 100%;
+.footer {
+  background: yellow;
 }
