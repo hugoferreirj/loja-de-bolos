@@ -9,7 +9,25 @@
 }
 header {
   background: #b80d1d;
-  height: 100px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% auto auto auto 64%;
+  grid-template-rows: auto;
+  gap: 10px;
+  align-items: center;
+}
+
+.logo {
+  padding: 3px 0 3px 40px;
+}
+
+.botoes {
+  text-align: center;
+}
+
+.car {
+  justify-self: flex-end;
+  padding-right: 40px;
 }
 
 a {
@@ -18,29 +36,68 @@ a {
 }
 
 i,
-p,
-h2 {
+p {
+  font-size: 23px;
   color: white;
+  margin: 6px 0 6px 0;
+}
+
+h1 {
+  color: white;
+  margin: 0px 0 12px 0;
 }
 
 .produtos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background: green;
+  background: white;
+  justify-items: center;
 }
 
-.capa {
-  background: purple;
-  height: 100px;
+.bolos {
+  width: 80%;
+  margin: 20px 10px 20px 10px;
+  border-radius: 27px;
 }
-.historia {
-  background: #b80d1d;
+
+.img {
+  margin: 20px 22px 0px 22px;
+}
+
+.text {
+  margin: 5px 24px 20px 24px;
 }
 
 .bolos {
   background: #b80d1d;
 }
 
+.historia {
+  background: #b80d1d;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+.texto {
+  margin: 40px;
+}
+
 .footer {
-  background: yellow;
+  background: white;
+  height: 5em;
+  display: grid;
+  grid-template-columns: 40px 40px 40px 40px;
+  gap: 15px;
+  justify-content: center;
+}
+
+.redes {
+  display: grid;
+  margin-top: 15px;
+  background: #b80d1d;
+  border-radius: 50%;
+  height: 42px;
+  width: 42px;
+  text-align: center;
+  align-items: center;
 }
