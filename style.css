@@ -7,9 +7,14 @@
   box-sizing: border-box;
   font-family: "Cabin", sans-serif;
   /* Só Embaixo */
-
   text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
 }
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
 header {
   background: #b80d1d;
   width: 100%;
@@ -80,7 +85,7 @@ h1 {
 }
 
 .texto {
-  margin: 40px 0px 0px 80px;
+  margin: 40px 60px 40px 60px;
   width: 80%;
 }
 
@@ -103,4 +108,7 @@ h1 {
   width: 42px;
   text-align: center;
   align-items: center;
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1336px) {
 }
